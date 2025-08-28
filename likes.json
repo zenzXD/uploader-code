@@ -9,7 +9,9 @@
     ]
   },
   "Animefinder.js": {
-    "count": 0,
-    "ips": []
+    "count": 1,
+    "ips": [
+      "127.0.0.1"
+    ]
   }
 }
