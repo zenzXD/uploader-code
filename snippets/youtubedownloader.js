@@ -78,7 +78,7 @@ let handler = async (m, { text, command, conn }) => {
     if (!text) throw Error('masukin url  youtube')
     let res
     if (command == 'ytmp3') res = await yt.download(text, 'mp3')
-    else if (command == 'ytmp4') res = await yt.download(text, '1080p')
+    else if (command == 'ytmp4') res = await yt.download(text, '720p')
     else throw Error('command gk di kenali')
 
     if (command == 'ytmp3') {
