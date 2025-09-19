@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 123,
+    "views": 121,
     "author": "zen"
   },
   "Lyrics-Search.js": 30,
@@ -8,18 +8,12 @@
   "iqc.js": 76,
   "youtubedownloader.js": 250,
   "tiktok-downloader.js": 30,
-  "imageupscaler.js": {
-    "views": 29,
-    "author": "zen"
-  },
+  "imageupscaler.js": 28,
   "uploadmeganz.js": 21,
   "imagetopixel.js": 20,
   "meganzdl.js": 14,
   "youtube-summarizer.js": 97,
-  "tourl.js": {
-    "views": 157,
-    "author": "zen"
-  },
+  "tourl.js": 155,
   "imagedit&toghibli.js": 181,
   "speedtest.js": 165,
   "youtube-transcript.js": 121,
@@ -31,7 +25,7 @@
   "tofigure-update.js": 380,
   "test.js": 3,
   "Test.js": {
-    "views": 9,
+    "views": 7,
     "author": "Cukii Digital"
   }
 }
