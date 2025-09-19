@@ -1,5 +1,8 @@
 {
-  "Animefinder.js": null,
+  "Animefinder.js": {
+    "views": 119,
+    "author": "zen"
+  },
   "Lyrics-Search.js": 30,
   "Webpilot AI (Web Search).js": 34,
   "iqc.js": 76,
@@ -18,5 +21,8 @@
   "tofigure.js": 2133,
   "tofigure-update.js": 380,
   "test.js": 3,
-  "Test.js": null
+  "Test.js": {
+    "views": 3,
+    "author": "Cukii Digital"
+  }
 }
