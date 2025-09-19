@@ -17,7 +17,10 @@
   "imagedit&toghibli.js": 181,
   "speedtest.js": 165,
   "youtube-transcript.js": 121,
-  "apple-music.js": 109,
+  "apple-music.js": {
+    "views": 110,
+    "author": "zen"
+  },
   "tofigure.js": 2133,
   "tofigure-update.js": 380,
   "test.js": 3,
