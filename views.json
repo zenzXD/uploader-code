@@ -18,11 +18,14 @@
   "speedtest.js": 165,
   "youtube-transcript.js": 121,
   "apple-music.js": {
-    "views": 110,
+    "views": 111,
     "author": "zen"
   },
   "tofigure.js": 2133,
-  "tofigure-update.js": 380,
+  "tofigure-update.js": {
+    "views": 381,
+    "author": "zen"
+  },
   "test.js": 3,
   "Test.js": {
     "views": 7,
