@@ -12,7 +12,10 @@
   "uploadmeganz.js": 21,
   "imagetopixel.js": 20,
   "meganzdl.js": 14,
-  "youtube-summarizer.js": 97,
+  "youtube-summarizer.js": {
+    "views": 99,
+    "author": "zen"
+  },
   "tourl.js": 155,
   "imagedit&toghibli.js": 181,
   "speedtest.js": 165,
