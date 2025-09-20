@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 123,
+    "views": 124,
     "author": "zen"
   },
   "Lyrics-Search.js": 30,
@@ -8,7 +8,10 @@
   "iqc.js": 76,
   "youtubedownloader.js": 250,
   "tiktok-downloader.js": 30,
-  "imageupscaler.js": 28,
+  "imageupscaler.js": {
+    "views": 29,
+    "author": "Unknown"
+  },
   "uploadmeganz.js": 21,
   "imagetopixel.js": 20,
   "meganzdl.js": 14,
