@@ -21,7 +21,10 @@
     "author": "zen"
   },
   "imagedit&toghibli.js": 181,
-  "speedtest.js": 165,
+  "speedtest.js": {
+    "views": 166,
+    "author": "zen"
+  },
   "youtube-transcript.js": 121,
   "apple-music.js": {
     "views": 111,
