@@ -5,10 +5,7 @@
   },
   "Lyrics-Search.js": 30,
   "Webpilot AI (Web Search).js": 34,
-  "iqc.js": {
-    "views": 77,
-    "author": "zen"
-  },
+  "iqc.js": 76,
   "youtubedownloader.js": 250,
   "tiktok-downloader.js": 30,
   "imageupscaler.js": {
@@ -33,9 +30,5 @@
   "Test.js": {
     "views": 7,
     "author": "Cukii Digital"
-  },
-  "Speechwriter.js": {
-    "views": 1,
-    "author": "zen"
   }
 }
