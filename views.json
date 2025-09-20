@@ -3,10 +3,7 @@
     "views": 123,
     "author": "zen"
   },
-  "Lyrics-Search.js": {
-    "views": 31,
-    "author": "zen"
-  },
+  "Lyrics-Search.js": 30,
   "Webpilot AI (Web Search).js": 34,
   "iqc.js": 76,
   "youtubedownloader.js": 250,
@@ -30,9 +27,5 @@
   "Test.js": {
     "views": 7,
     "author": "Cukii Digital"
-  },
-  "Speechwriter.js": {
-    "views": 13,
-    "author": "zen"
   }
 }
