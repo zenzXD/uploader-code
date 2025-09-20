@@ -1,11 +1,14 @@
 {
   "Animefinder.js": {
-    "views": 124,
+    "views": 125,
     "author": "zen"
   },
   "Lyrics-Search.js": 30,
   "Webpilot AI (Web Search).js": 34,
-  "iqc.js": 76,
+  "iqc.js": {
+    "views": 77,
+    "author": "zen"
+  },
   "youtubedownloader.js": 250,
   "tiktok-downloader.js": 30,
   "imageupscaler.js": {
@@ -18,7 +21,10 @@
   "youtube-summarizer.js": 97,
   "tourl.js": 155,
   "imagedit&toghibli.js": 181,
-  "speedtest.js": 165,
+  "speedtest.js": {
+    "views": 167,
+    "author": "zen"
+  },
   "youtube-transcript.js": 121,
   "apple-music.js": {
     "views": 111,
@@ -30,5 +36,9 @@
   "Test.js": {
     "views": 7,
     "author": "Cukii Digital"
+  },
+  "Speechwriter.js": {
+    "views": 3,
+    "author": "zen"
   }
 }
