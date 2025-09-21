@@ -4,7 +4,10 @@
     "author": "zen"
   },
   "Lyrics-Search.js": 30,
-  "Webpilot AI (Web Search).js": 34,
+  "Webpilot AI (Web Search).js": {
+    "views": 35,
+    "author": "zen"
+  },
   "iqc.js": 76,
   "youtubedownloader.js": 250,
   "tiktok-downloader.js": 30,
@@ -17,7 +20,7 @@
   "meganzdl.js": 14,
   "youtube-summarizer.js": 97,
   "tourl.js": {
-    "views": 156,
+    "views": 157,
     "author": "zen"
   },
   "imagedit&toghibli.js": {
