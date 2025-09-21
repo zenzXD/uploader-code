@@ -40,14 +40,17 @@
     "views": 168,
     "author": "zen"
   },
-  "youtube-transcript.js": 121,
+  "youtube-transcript.js": {
+    "views": 122,
+    "author": "zen"
+  },
   "apple-music.js": {
     "views": 114,
     "author": "zen"
   },
   "tofigure.js": 2133,
   "tofigure-update.js": {
-    "views": 393,
+    "views": 392,
     "author": "zen"
   },
   "test.js": 3,
