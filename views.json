@@ -20,7 +20,10 @@
     "views": 156,
     "author": "zen"
   },
-  "imagedit&toghibli.js": 181,
+  "imagedit&toghibli.js": {
+    "views": 182,
+    "author": "zen"
+  },
   "speedtest.js": {
     "views": 166,
     "author": "zen"
@@ -32,7 +35,7 @@
   },
   "tofigure.js": 2133,
   "tofigure-update.js": {
-    "views": 383,
+    "views": 384,
     "author": "zen"
   },
   "test.js": 3,
