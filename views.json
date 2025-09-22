@@ -4,11 +4,11 @@
     "author": "zen"
   },
   "Lyrics-Search.js": {
-    "views": 31,
+    "views": 32,
     "author": "zen"
   },
   "Webpilot AI (Web Search).js": {
-    "views": 35,
+    "views": 36,
     "author": "zen"
   },
   "iqc.js": {
@@ -16,10 +16,13 @@
     "author": "zen"
   },
   "youtubedownloader.js": {
-    "views": 252,
+    "views": 253,
     "author": "zen"
   },
-  "tiktok-downloader.js": 30,
+  "tiktok-downloader.js": {
+    "views": 31,
+    "author": "zen"
+  },
   "imageupscaler.js": {
     "views": 30,
     "author": "Unknown"
