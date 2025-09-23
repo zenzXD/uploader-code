@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 132,
+    "views": 131,
     "author": "zen"
   },
   "Lyrics-Search.js": {
@@ -16,7 +16,7 @@
     "author": "zen"
   },
   "youtubedownloader.js": {
-    "views": 261,
+    "views": 260,
     "author": "zen"
   },
   "tiktok-downloader.js": {
@@ -39,10 +39,7 @@
     "views": 15,
     "author": "zen"
   },
-  "youtube-summarizer.js": {
-    "views": 98,
-    "author": "zen"
-  },
+  "youtube-summarizer.js": 97,
   "tourl.js": {
     "views": 160,
     "author": "zen"
@@ -56,7 +53,7 @@
     "author": "zen"
   },
   "youtube-transcript.js": {
-    "views": 124,
+    "views": 123,
     "author": "zen"
   },
   "apple-music.js": {
@@ -78,7 +75,7 @@
     "author": "zen"
   },
   "Video-Enhancer(hd).js": {
-    "views": 124,
+    "views": 125,
     "author": "zen"
   }
 }
