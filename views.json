@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 128,
+    "views": 129,
     "author": "zen"
   },
   "Lyrics-Search.js": {
@@ -12,7 +12,7 @@
     "author": "zen"
   },
   "iqc.js": {
-    "views": 79,
+    "views": 80,
     "author": "zen"
   },
   "youtubedownloader.js": {
@@ -41,7 +41,7 @@
   },
   "youtube-summarizer.js": 97,
   "tourl.js": {
-    "views": 160,
+    "views": 161,
     "author": "zen"
   },
   "imagedit&toghibli.js": {
@@ -53,16 +53,16 @@
     "author": "zen"
   },
   "youtube-transcript.js": {
-    "views": 122,
+    "views": 126,
     "author": "zen"
   },
   "apple-music.js": {
-    "views": 115,
+    "views": 119,
     "author": "zen"
   },
   "tofigure.js": 2133,
   "tofigure-update.js": {
-    "views": 402,
+    "views": 403,
     "author": "zen"
   },
   "test.js": 3,
@@ -75,7 +75,7 @@
     "author": "zen"
   },
   "Video-Enhancer(hd).js": {
-    "views": 48,
+    "views": 54,
     "author": "zen"
   }
 }
