@@ -39,7 +39,10 @@
     "views": 15,
     "author": "zen"
   },
-  "youtube-summarizer.js": 97,
+  "youtube-summarizer.js": {
+    "views": 98,
+    "author": "zen"
+  },
   "tourl.js": {
     "views": 160,
     "author": "zen"
@@ -53,7 +56,7 @@
     "author": "zen"
   },
   "youtube-transcript.js": {
-    "views": 123,
+    "views": 124,
     "author": "zen"
   },
   "apple-music.js": {
