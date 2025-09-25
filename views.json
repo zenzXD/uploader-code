@@ -12,7 +12,7 @@
     "author": "zen"
   },
   "iqc.js": {
-    "views": 82,
+    "views": 81,
     "author": "zen"
   },
   "youtubedownloader.js": {
@@ -65,7 +65,7 @@
   },
   "tofigure.js": 2133,
   "tofigure-update.js": {
-    "views": 418,
+    "views": 416,
     "author": "zen"
   },
   "test.js": 3,
@@ -75,10 +75,6 @@
   },
   "Speechwriter.js": {
     "views": 46,
-    "author": "zen"
-  },
-  "shorturl.js": {
-    "views": 22,
     "author": "zen"
   }
 }
