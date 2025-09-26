@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 138,
+    "views": 137,
     "author": "zen"
   },
   "Lyrics-Search.js": {
@@ -12,7 +12,7 @@
     "author": "zen"
   },
   "iqc.js": {
-    "views": 84,
+    "views": 82,
     "author": "zen"
   },
   "youtubedownloader.js": {
@@ -20,11 +20,11 @@
     "author": "zen"
   },
   "tiktok-downloader.js": {
-    "views": 34,
+    "views": 33,
     "author": "zen"
   },
   "imageupscaler.js": {
-    "views": 38,
+    "views": 37,
     "author": "Unknown"
   },
   "uploadmeganz.js": {
@@ -32,7 +32,7 @@
     "author": "zen"
   },
   "imagetopixel.js": {
-    "views": 26,
+    "views": 25,
     "author": "zen"
   },
   "meganzdl.js": {
@@ -48,7 +48,7 @@
     "author": "zen"
   },
   "imagedit&toghibli.js": {
-    "views": 200,
+    "views": 199,
     "author": "zen"
   },
   "speedtest.js": {
@@ -65,7 +65,7 @@
   },
   "tofigure.js": 2133,
   "tofigure-update.js": {
-    "views": 424,
+    "views": 423,
     "author": "zen"
   },
   "test.js": 3,
@@ -78,11 +78,7 @@
     "author": "zen"
   },
   "shorturl.js": {
-    "views": 52,
-    "author": "zen"
-  },
-  "Checkphising.js": {
-    "views": 30,
+    "views": 50,
     "author": "zen"
   }
 }
