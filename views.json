@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 137,
+    "views": 139,
     "author": "zen"
   },
   "Lyrics-Search.js": {
@@ -80,5 +80,9 @@
   "shorturl.js": {
     "views": 50,
     "author": "zen"
+  },
+  "Checkphising.js": {
+    "views": 1,
+    "author": "Unknown"
   }
 }
