@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 139,
+    "views": 137,
     "author": "zen"
   },
   "Lyrics-Search.js": {
@@ -74,15 +74,11 @@
     "author": "Cukii Digital"
   },
   "Speechwriter.js": {
-    "views": 53,
+    "views": 51,
     "author": "zen"
   },
   "shorturl.js": {
     "views": 50,
     "author": "zen"
-  },
-  "Checkphising.js": {
-    "views": 2,
-    "author": "Unknown"
   }
 }
