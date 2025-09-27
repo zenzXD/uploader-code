@@ -65,7 +65,7 @@
   },
   "tofigure.js": 2133,
   "tofigure-update.js": {
-    "views": 424,
+    "views": 423,
     "author": "zen"
   },
   "test.js": 3,
@@ -80,9 +80,5 @@
   "shorturl.js": {
     "views": 50,
     "author": "zen"
-  },
-  "Checkphising.js": {
-    "views": 3,
-    "author": "Unknown"
   }
 }
