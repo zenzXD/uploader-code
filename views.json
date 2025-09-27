@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 138,
+    "views": 137,
     "author": "zen"
   },
   "Lyrics-Search.js": {
@@ -12,11 +12,11 @@
     "author": "zen"
   },
   "iqc.js": {
-    "views": 83,
+    "views": 82,
     "author": "zen"
   },
   "youtubedownloader.js": {
-    "views": 269,
+    "views": 268,
     "author": "zen"
   },
   "tiktok-downloader.js": {
@@ -24,11 +24,11 @@
     "author": "zen"
   },
   "imageupscaler.js": {
-    "views": 40,
+    "views": 39,
     "author": "Unknown"
   },
   "uploadmeganz.js": {
-    "views": 25,
+    "views": 24,
     "author": "zen"
   },
   "imagetopixel.js": {
@@ -74,19 +74,19 @@
     "author": "Cukii Digital"
   },
   "Speechwriter.js": {
-    "views": 52,
-    "author": "zen"
-  },
-  "shorturl.js": {
     "views": 51,
     "author": "zen"
   },
+  "shorturl.js": {
+    "views": 52,
+    "author": "zen"
+  },
   "Checkphising.js": {
-    "views": 49,
+    "views": 43,
     "author": "zen"
   },
   "nsfwcek.js": {
-    "views": 18,
+    "views": 27,
     "author": "zen"
   }
 }
