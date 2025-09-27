@@ -4,19 +4,19 @@
     "author": "zen"
   },
   "Lyrics-Search.js": {
-    "views": 36,
+    "views": 37,
     "author": "zen"
   },
   "Webpilot AI (Web Search).js": {
-    "views": 42,
+    "views": 43,
     "author": "zen"
   },
   "iqc.js": {
-    "views": 82,
+    "views": 84,
     "author": "zen"
   },
   "youtubedownloader.js": {
-    "views": 268,
+    "views": 269,
     "author": "zen"
   },
   "tiktok-downloader.js": {
@@ -52,11 +52,11 @@
     "author": "zen"
   },
   "speedtest.js": {
-    "views": 177,
+    "views": 178,
     "author": "zen"
   },
   "youtube-transcript.js": {
-    "views": 126,
+    "views": 127,
     "author": "zen"
   },
   "apple-music.js": {
@@ -65,7 +65,7 @@
   },
   "tofigure.js": 2133,
   "tofigure-update.js": {
-    "views": 423,
+    "views": 428,
     "author": "zen"
   },
   "test.js": 3,
@@ -78,7 +78,11 @@
     "author": "zen"
   },
   "shorturl.js": {
-    "views": 50,
+    "views": 52,
     "author": "zen"
+  },
+  "Checkphising.js": {
+    "views": 21,
+    "author": "Unknown"
   }
 }
