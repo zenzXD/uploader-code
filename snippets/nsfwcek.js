@@ -11,7 +11,9 @@ import FormData from 'form-data'
 async function nyckelCheck(imageBuffer) {
   const form = new FormData()
   form.append('file', imageBuffer, { filename: 'zen.jpg' })
-  const res = await axios.post(   'https://www.nyckel.com/v1/functions/o2f0jzcdyut2qxhu/invoke',
+
+  const res = await axios.post(
+    'https://www.nyckel.com/v1/functions/o2f0jzcdyut2qxhu/invoke',
     form,
     {
       headers: {
@@ -35,7 +37,9 @@ let handler = async (m, { conn, args }) => {
     if (!/image/.test(mime)) {
       return m.reply('reply gambar dengan command : .nsfwcek')
     }
+
     m.reply('wett')
+
     const imageBuffer = await m.quoted.download()
     if (!imageBuffer) return m.reply('eror pas mengunduh gambar')
 
