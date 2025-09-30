@@ -4,7 +4,7 @@
     "author": "zen"
   },
   "Lyrics-Search.js": {
-    "views": 41,
+    "views": 40,
     "author": "zen"
   },
   "Webpilot AI (Web Search).js": {
@@ -82,11 +82,15 @@
     "author": "zen"
   },
   "Checkphising.js": {
-    "views": 84,
+    "views": 83,
     "author": "zen"
   },
   "nsfwcek.js": {
-    "views": 86,
+    "views": 87,
+    "author": "zen"
+  },
+  "fesnuk-downloader.js": {
+    "views": 0,
     "author": "zen"
   }
 }
