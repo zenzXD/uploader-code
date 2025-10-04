@@ -96,5 +96,9 @@
   "image2text.js": {
     "views": 40,
     "author": "zen"
+  },
+  "Faketweet.js": {
+    "views": 0,
+    "author": "zen"
   }
 }
