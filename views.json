@@ -12,7 +12,7 @@
     "author": "zen"
   },
   "iqc.js": {
-    "views": 101,
+    "views": 99,
     "author": "zen"
   },
   "youtubedownloader.js": {
@@ -99,6 +99,10 @@
   },
   "Faketweet.js": {
     "views": 99,
+    "author": "zen"
+  },
+  "FakeStory-Instagram.js": {
+    "views": 0,
     "author": "zen"
   }
 }
