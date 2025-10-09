@@ -1,4 +1,4 @@
-const url_threads = 'https://www.threads.com/@mood.story_21/post/DJgspOyTc4W?xmt=AQF0inh4-_PI0JMWlFFyreawmmEabBAzjoV4p2_q8R0UtQ'
+const url_threads = 'url_threadsmu'
 const rsc = 'w3qin'
 
 const threadsdl = async () => {
