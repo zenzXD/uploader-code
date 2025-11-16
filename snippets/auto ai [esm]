@@ -1,0 +1,95 @@
+/*
+
+ntah lah, pake aja
+
+*/
+
+import fs from "fs";
+import axios from "axios";
+
+const FILE = "./ai_sessions.json";
+
+const defaultPrompt = `respon mu singkat, tidak pernah memakai emoji dan semua huruf yg kamu pakai kecil semua tidak ada kapital`;
+
+function loadData() {
+    if (fs.existsSync(FILE)) {
+        try {
+            return JSON.parse(fs.readFileSync(FILE, "utf8"));
+        } catch {
+            return { autoAI: false, systemPrompt: defaultPrompt };
+        }
+    }
+    return { autoAI: false, systemPrompt: defaultPrompt };
+}
+
+function saveData(data) {
+    fs.writeFileSync(FILE, JSON.stringify(data, null, 2));
+}
+
+let storage = loadData();
+
+let handler = async (m, { conn, text, command, isOwner }) => {
+
+    if (command === "autoai") {
+        if (!isOwner) return m.reply("❌ Lu bukan owner.");
+
+        if (!text) return m.reply("Contoh:\n.autoai on\n.autoai off");
+
+        if (text === "on") {
+            storage.autoAI = true;
+            saveData(storage);
+            return m.reply("✓ Auto AI aktif.");
+        }
+
+        if (text === "off") {
+            storage.autoAI = false;
+            saveData(storage);
+            return m.reply("✓ Auto AI dimatikan.");
+        }
+
+        return m.reply("Pilihan tidak valid.");
+    }
+
+    if (command === "setai") {
+        if (!isOwner) return m.reply("❌ Cuma owner bisa set system prompt.");
+        if (!text) return m.reply("Contoh:\n.setai kamu adalah AI lucu");
+
+        storage.systemPrompt = text;
+        saveData(storage);
+        return m.reply("✓ System prompt diperbarui.");
+    }
+};
+
+handler.before = async (m, { conn }) => {
+    if (!storage.autoAI) return;
+    if (!m.text) return;
+    if (m.isBaileys && m.fromMe) return;
+
+    if (!m.quoted) return;
+
+    await conn.sendMessage(m.chat, { react: { text: "⏱️", key: m.key } });
+
+    try {
+        const prompt = encodeURIComponent(storage.systemPrompt);
+        const textUser = encodeURIComponent(m.text);
+
+        const url = `https://www.sankavollerei.com/ai/session?apikey=planaai&text=${textUser}&prompt=${prompt}&sessions=Furina`;
+
+        const r = await axios.get(url);
+        const answer = r.data?.result || "Tidak ada respon.";
+
+        await conn.sendMessage(m.chat, { react: { text: "✅", key: m.key } });
+
+        m.reply(answer);
+
+    } catch (err) {
+        console.log("AI ERROR:", err.response?.data || err.message);
+        m.reply("❌ Error\nLogs error : . . . .");
+    }
+};
+
+handler.tags = ["ai"];
+handler.help = ["autoai on/off", "setai <prompt>"]
+handler.command = ["autoai", "setai"]
+
+export default handler;
