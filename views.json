@@ -1,6 +1,6 @@
 {
   "Animefinder.js": {
-    "views": 223,
+    "views": 229,
     "author": "zen"
   },
   "Lyrics-Search.js": {
@@ -132,13 +132,5 @@
   "img2vid.js": {
     "views": 98,
     "author": "Unknown"
-  },
-  "auto ai [esm]": {
-    "views": 0,
-    "author": "Cukii Digital"
-  },
-  "auto ai [cjs]": {
-    "views": 1,
-    "author": "Cukii Digital"
   }
 }
