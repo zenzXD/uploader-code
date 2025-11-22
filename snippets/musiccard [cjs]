@@ -1,0 +1,105 @@
+/*
+
+# Fitur : music card ygy
+# Type : Plugins CJS
+# Created by : https://whatsapp.com/channel/0029VbBbGUiFcow4neaist0T
+# Api : —
+
+   ⚠️ _Note_ ⚠️
+jangan hapus wm ini banggg
+
+*/
+
+const fs = require("fs")
+const axios = require("axios")
+const path = require("path")
+const { loadImage, createCanvas, registerFont } = require("canvas")
+
+let handler = async (m, { conn, text }) => {
+  try {
+    if (!text || !text.includes("|")) {
+      return m.reply("Format salah.\nContoh: .musiccard Judul Lagu | Nama Artis")
+    }
+
+    m.reply("proses ygy 😹")
+
+    let [judul, artis] = text.split("|").map(a => a.trim())
+
+    let q = m.quoted ? m.quoted : m
+    let mime = (q.msg || q).mimetype || ""
+    if (!mime || !mime.startsWith("image")) {
+      return m.reply("Reply gambar untuk cover.")
+    }
+
+    let imgBuffer = await q.download()
+    const album = await loadImage(imgBuffer)
+
+    const fontUrl = "https://files.cloudkuimages.guru/fonts/610f28a7c2af.ttf"
+    const fontPath = path.join(process.cwd(), "font-musiccard.ttf")
+
+    if (!fs.existsSync(fontPath)) {
+      const res = await axios.get(fontUrl, { responseType: "arraybuffer" })
+      fs.writeFileSync(fontPath, Buffer.from(res.data))
+    }
+
+    registerFont(fontPath, { family: "RobotoMedium" })
+
+    const bgURL = "https://uploader.zenzxz.dpdns.org/uploads/1763478562380.jpeg"
+    const bg = await loadImage(bgURL)
+
+    const canvas = createCanvas(1080, 1920)
+    const ctx = canvas.getContext("2d")
+
+    ctx.drawImage(bg, 0, 0, canvas.width, canvas.height)
+
+    function roundedClip(ctx, x, y, w, h, r = 50) {
+      ctx.beginPath()
+      ctx.moveTo(x + r, y)
+      ctx.lineTo(x + w - r, y)
+      ctx.quadraticCurveTo(x + w, y, x + w, y + r)
+      ctx.lineTo(x + w, y + h - r)
+      ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h)
+      ctx.lineTo(x + r, y + h)
+      ctx.quadraticCurveTo(x, y + h, x, y + h - r)
+      ctx.lineTo(x, y + r)
+      ctx.quadraticCurveTo(x, y, x + r, y)
+      ctx.closePath()
+    }
+
+    const ax = 153
+    const ay = 280
+    const aw = 773
+    const ah = 800
+
+    ctx.save()
+    roundedClip(ctx, ax, ay, aw, ah, 50)
+    ctx.clip()
+    ctx.drawImage(album, ax, ay, aw, ah)
+    ctx.restore()
+
+    ctx.fillStyle = "#fff"
+    ctx.font = "500 50px RobotoMedium"
+    ctx.fillText(judul, 150, 1165)
+
+    ctx.fillStyle = "#BABABA"
+    ctx.font = "40px RobotoMedium"
+    ctx.fillText(artis, 150, 1210)
+
+    const buffer = canvas.toBuffer()
+
+    await conn.sendMessage(
+      m.chat,
+      { image: buffer, caption: "Done dek 😹" },
+      { quoted: m }
+    )
+
+  } catch (e) {
+    await m.reply(`❌ Error\nLogs error : ${e}`)
+  }
+}
+
+handler.tags = ["maker"]
+handler.help = ["musiccard <judul|artis>"]
+handler.command = /^musiccard$/i
+
+module.exports = handler
