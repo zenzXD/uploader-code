@@ -144,5 +144,9 @@
   "musiccard [esm]": {
     "views": 0,
     "author": "Cukii Digital"
+  },
+  "musiccard [cjs]": {
+    "views": 0,
+    "author": "Cukii Digital"
   }
 }
