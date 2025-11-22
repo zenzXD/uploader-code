@@ -142,15 +142,15 @@
     "author": "Cukii Digital"
   },
   "musiccard [esm]": {
-    "views": 1,
-    "author": "Cukii Digital"
-  },
-  "musiccard [cjs]": {
     "views": 2,
     "author": "Cukii Digital"
   },
+  "musiccard [cjs]": {
+    "views": 1,
+    "author": "Cukii Digital"
+  },
   "musiccard [case]": {
-    "views": 3,
+    "views": 1,
     "author": "Cukii Digital"
   }
 }
